@@ -15,6 +15,9 @@ newgrp docker
 sudo chmod 666 /var/run/docker.sock
 sudo systemctl restart docker
 
+--- Install Sonarqube to Docker ---
+docker run -d --name sonar-server -p 9000:9000 sonarqube:lts-community
+
 --- KUBERNETES ---
 
 # Step1:
