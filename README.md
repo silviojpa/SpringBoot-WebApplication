@@ -5,4 +5,5 @@
 - Sonarqube
 - Dempendency Checks
 - Trivy
-
+  
+1 Verifica o arquivo step.txt para baixar e atualizar os programas necessario.
