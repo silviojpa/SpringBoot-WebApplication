@@ -78,6 +78,11 @@ sudo systemctl enable jenkins
 sudo systemctl start jenkins
 sudo systemctl status jenkins
 
+Chave de Desbloqueio Inicial:
+
+Após a instalação: Ao acessar a interface web do Jenkins pela primeira vez, você será solicitado a fornecer uma senha inicial. Essa senha é encontrada em um arquivo localizado em /var/lib/jenkins/secrets/initialAdminPassword.
+
+cat /var/lib/jenkins/secrets/initialAdminPassword
 
 
 ---TRIVY INSTALLATION STEPS---
