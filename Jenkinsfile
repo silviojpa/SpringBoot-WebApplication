@@ -65,7 +65,7 @@ pipeline {
             }
         }
         
-        stage('Docker Image scan') {
+        stage('Trivy Docker Image scan') {
             steps {
                     sh "trivy image silvio69luiz/webapp:latest "
             }
